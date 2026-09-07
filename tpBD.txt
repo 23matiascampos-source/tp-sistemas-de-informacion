@@ -8,13 +8,13 @@ cliente, pedidos, productos, empleado
 cliente: id_cliente, nombre (simple), dirección (compuesta), teléfono (simple), email (multivaluado)
 producto: código (simple), nombre (simple), precio (simple), stock (simple)
 pedido:id_pedido, fecha (simple), estado (simple),id_cliente(simple)
-empleado: id_pedido(simple)
+empleado: id_pedido(simple), id_empleado(simplle), nombre
 
 3. 3. Claves candidatas y clave primaria
 clientes: id_cliente (PK) la elegi como primare key porque es un atributo unico y no se puede repetir
 producto: codigo (PK) la elegi porque cada producto tiene su propio codigo
 pedidos; id_pedido (PK) la elegi porque es uinica en la tabla
-empleado:
+empleado: id_empleado (PK) la elegi porque es unica
 
 4. 4. Relaciones entre entidades
 1)cliente realiza Pedido: clientes realizan pedidos que tienen un cliente asociado
