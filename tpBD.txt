@@ -19,7 +19,7 @@ empleado: id_empleado (PK) la elegi porque es unica
 4. 4. Relaciones entre entidades
 1)cliente realiza Pedido: clientes realizan pedidos que tienen un cliente asociado
 2)pedido contiene Producto: pedidos contienen varios productos y se registra cuantos producto tiene cada uno
-3)empleado atiende Pedido: empleados atienden los pedidos porque un empleado puede atender varios pedidos pero cada pedido es atendido por un solo empleado
+3)empleado atiende Pedido: empleados atienden los pedidos porque un empleado puede atender varios pedidos pero cada pedido es atendido por un solo empleado.
 
 5. 5. Cardinalidad de cada relación
 cliente-Pedido: 1:N un cliente realiza varios pedidos
