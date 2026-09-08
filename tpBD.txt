@@ -30,7 +30,7 @@ empleado-Pedido: 1:N un empleado puede atender varios pedidos, pero cada pedido 
 Si, el atributo es Cantidad. Pertenece a la relacion entre Pedido y Producto porque representa cuantas unidades de ese producto especifico se compraron en ese pedido
 
 7. 7. Atributos multivaluados
-(no respondido)
+el atributo multivaluado que encontre fue el atributo gmail de la tabla clientes
 
 8. 8. Tablas del diccionario de datos (I)
 (no respondido)
