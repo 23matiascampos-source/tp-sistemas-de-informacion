@@ -42,31 +42,19 @@ Si, el atributo es Cantidad. Pertenece a la relacion entre Pedido y Producto por
 Tabla Cliente
 Atributos: ID_Cliente, Nombre, Direccion, Telefono
 PK: ID_Cliente
-FK: Ninguna
-
-Tabla Cliente_Email
-Atributos: ID_Cliente, Email
-PK: (ID_Cliente, Email)
-FK: ID_Cliente (apunta a Cliente.ID_Cliente)
 
 Tabla Producto
 Atributos: Codigo, Nombre, Precio, Stock
 PK: Codigo
-FK: Ninguna
 
 Tabla Empleado
 Atributos: ID_Empleado, Nombre
 PK: ID_Empleado
-FK: Ninguna
 
 Tabla Pedido
 Atributos: Numero_Pedido, Fecha, Estado, ID_Cliente, ID_Empleado
 PK: Numero_Pedido
-FK: ID_Cliente (apunta a Cliente.ID_Cliente), ID_Empleado (apunta a Empleado.ID_Empleado)
 
-Tabla Pedido_Producto
-Atributos: Numero_Pedido, Codigo_Producto, Cantidad
-PK: (Numero_Pedido, Codigo_Producto)
-FK: Numero_Pedido (apunta a Pedido.Numero_Pedido), Codigo_Producto (apunta a Producto.Codigo)
+
 =======================
 📌 Recuerda: Dibuja el diagrama E-R en papel o con herramienta y súbelo junto con este resumen.
