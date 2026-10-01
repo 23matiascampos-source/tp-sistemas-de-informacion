@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Registro de alumnos</title>
+</head>
+<body>
+  <h1>Registro de alumnos</h1>
+
+  <form id="formulario">
+    <input id="nombre" placeholder="Nombre" required>
+    <input id="apellido" placeholder="Apellido" required>
+    <input id="email" type="email" placeholder="Email" required>
+    <input id="edad" type="number" placeholder="Edad">
+    <input id="dni" placeholder="DNI" required>
+    <button type="submit">Registrar</button>
+  </form>
+
+  <p id="mensaje"></p>
+
+  <h2>registros</h2>
+  <table border="1">
+    <tr>
+      <th>Nombre</th><th>Apellido</th><th>Email</th><th>Edad</th><th>DNI</th>
+    </tr>
+    <tbody id="tabla"></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
