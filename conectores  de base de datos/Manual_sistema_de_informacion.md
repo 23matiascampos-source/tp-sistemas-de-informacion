@@ -2,6 +2,8 @@
 
 Matias campos, Fabricio lopez
 
+El link del video: https://youtu.be/uN19_H5n-Lo?si=QH4HUKnK5iCSZpuz
+
 Los programas que necesitamos son:
 
 - **Node.js**: Permite ejecutar JavaScript fuera del navegador para crear el servidor que recibe los datos y losguarda
