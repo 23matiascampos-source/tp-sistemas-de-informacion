@@ -14,7 +14,7 @@ Los conectores de datos son herramientas, software o interfaces que facilitan la
 
 Node.js es como un puente que conecta lo que ves en una página web con una base de datos. Node.js funciona en el servidor y utiliza JavaScript para recibir esos datos desde la página web, procesarlos y guardarlos en una base de datos (o buscarlos de nuevo cuando el usuario vuelve a entrar). Gracias a esto, puedes construir aplicaciones completas donde la pantalla interactúa de forma directa y rápida con toda la información guardada detrás de escena, usando el mismo lenguaje de programación para todo.
 
-Los programas que necesitamos son:
+### Los programas que necesitamos son:
 
 - **Node.js**: Permite ejecutar JavaScript fuera del navegador para crear el servidor que recibe los datos y losguarda
 
