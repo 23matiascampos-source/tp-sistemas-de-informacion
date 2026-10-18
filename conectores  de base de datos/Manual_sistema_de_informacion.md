@@ -6,11 +6,11 @@ El link del video: https://youtu.be/uN19_H5n-Lo?si=QH4HUKnK5iCSZpuz
 
 # Información general de qué es lo que vamos a usarr
 
-## ¿Qué es un conector de base de datos?
+### ¿Qué es un conector de base de datos?
 
 Los conectores de datos son herramientas, software o interfaces que facilitan la integración, el movimiento y la sincronización de datos entre diferentes sistemas. Actúan como puentes que vinculan distintos orígenes de datos, como hojas de cálculo, bases de datos o servicios en la nube, y permiten a las organizaciones consolidar información en un solo lugar para garantizar un acceso, análisis más sencillos y más seguridad al momento de crear alguna página. Esto se debe a que usar conectores de datos optimiza los flujos de trabajo y mejora los procesos de toma de decisiones.
 
-## ¿Qué es Node.js?
+### ¿Qué es Node.js?
 
 Node.js es como un puente que conecta lo que ves en una página web con una base de datos. Node.js funciona en el servidor y utiliza JavaScript para recibir esos datos desde la página web, procesarlos y guardarlos en una base de datos (o buscarlos de nuevo cuando el usuario vuelve a entrar). Gracias a esto, puedes construir aplicaciones completas donde la pantalla interactúa de forma directa y rápida con toda la información guardada detrás de escena, usando el mismo lenguaje de programación para todo.
 
